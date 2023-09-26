@@ -19,7 +19,7 @@ img{
     
     padding: 0 15px 0 15px;
     
-    margin: auto;
+    margin:  0 auto;
     width: 1158px;
 
    }
@@ -51,6 +51,7 @@ header{
     /* padding: 24px 0 24px ; */
     display: flex;
     gap: 40px;
+    
     
 }
 
@@ -139,8 +140,8 @@ color:#404bbf;
 
 
 .hero-title{
-    
-    
+    display: block;
+    margin: 0 auto;
     max-width: 496px; 
     color: #ffffff;
     font-size: 56px;
@@ -148,12 +149,12 @@ color:#404bbf;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
-    
+    margin-bottom: 48px;
     
     }
     
 .btn{
-    
+    margin: 0 auto;
     display: block;
     background-color: #4D5AE5;
     color:#ffffff;
@@ -168,6 +169,7 @@ color:#404bbf;
     height: 56px;
     border: none; 
     border-radius: 4px;
+    
 }
 .hero>.btn:hover,.hero>button:focus{
     background-color:#404BBF;
