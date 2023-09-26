@@ -349,8 +349,10 @@ font-weight: 400;
 line-height: 1.5; /* 150% */
 letter-spacing: 0.32px;
 }
-footer{
+.footer{
     background: #2E2F42;
+    padding: 100px 0;
+    
 }
 .footer .footer-logo{
     color: #4D5AE5;
@@ -361,11 +363,14 @@ font-weight: 700;
 line-height: 1.17;/* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
+display: inline-block;
+margin-bottom: 16px;
 }
 .logo-footer{
     color: #F4F4FD;
 }
-.footer>p{
+.footer-text{
     color: #F4F4FD;
     letter-spacing: 0.02em;
+    width: 264px;
 }
