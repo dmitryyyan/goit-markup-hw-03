@@ -12,12 +12,15 @@ body{
     letter-spacing: 0.64px;
     
 }
+img{
+    display: block;
+}
 .container { 
     
-    max-width: 1440px;
+    padding: 0 15px 0 15px;
     
     margin: auto;
-    
+    width: 1158px;
 
    }
 header{
@@ -26,6 +29,7 @@ header{
     width: 1440;
     padding-top: auto;
     padding-bottom: auto;
+    border-bottom: 1px solid #e7e9fc;
   
 }
 
@@ -44,11 +48,10 @@ header{
 }
 .header-menu{
     list-style-type: none;
-    padding-right: 332px;
+    /* padding: 24px 0 24px ; */
     display: flex;
     gap: 40px;
-   
-   
+    
 }
 
 .logo-studio{
@@ -72,6 +75,7 @@ header{
     line-height: 1.17;
     letter-spacing: 0.54px;
     text-transform: uppercase;
+    margin-right: 76px;
 }
 .header-menu-item{
     color:  #2E2F42;
@@ -113,6 +117,7 @@ letter-spacing: 0.32px;
 }
 .header-menu-link{
 color: #2E2F42;
+padding: 24px 0 24px ;
 }
 .header-menu-link:hover{
 color:#404bbf;
