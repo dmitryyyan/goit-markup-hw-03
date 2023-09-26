@@ -229,18 +229,20 @@ color:#404bbf;
     flex-shrink: 0;
     background: #F4F4FD;
 }
-.team-page>ul{
+.team-list{
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 
-.team-page>ul>li{
+.team-list-item{
     
     background:  #ffffff;
    
     
     
 }
-.team-page>ul>li>h3{
+.team-list-title{
     color:  #2E2F42;
     text-align: center;
     /* Header 3 */
@@ -251,7 +253,7 @@ color:#404bbf;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
 }
-.team-page>ul>li>p{
+.team-list-text{
     color:  #434455;
     text-align: center;
     letter-spacing: 0.02em;
