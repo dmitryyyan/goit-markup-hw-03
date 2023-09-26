@@ -172,8 +172,23 @@ color:#404bbf;
 .hero>.btn:hover,.hero>button:focus{
     background-color:#404BBF;
 }
+.features-list{
+    display: flex;
+    list-style-type: none;
+    padding: 120px 0 120px;
+    gap: 24px;
+}
+.listok{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px; 
+}
 
 .features-list-title{
+    
+    margin: 0;
     color: #2E2F42;
     font-family: "Roboto",sans-serif;
     font-size: 20px;
@@ -182,10 +197,15 @@ color:#404bbf;
     line-height: 1.2;
     letter-spacing: 0.4px;
     
+    
+}
+.features-title{
+    display: none;
 }
 .features-list-text{
     color: #434455;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 .team-page{
     
