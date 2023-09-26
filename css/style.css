@@ -177,7 +177,7 @@ color:#404bbf;
 .features-list{
     display: flex;
     list-style-type: none;
-    
+    padding: 0;
     gap: 24px;
 }
 .features{
@@ -192,6 +192,7 @@ color:#404bbf;
     align-items: flex-start;
     
 }
+
 .visually-hidden {
     position: absolute;
     width: 1px;
