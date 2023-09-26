@@ -326,8 +326,13 @@ letter-spacing: 0.4px;
 letter-spacing: 0.02em;
 }
 .portfolio{
-    flex-basis: calc(100% - 3 * 24px) / 4;
     
+    padding: 120px 0 120px 0;
+}
+.portf-text{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc; 
+    border-top: none;
 }
 
 .porfolio-menu-text{
