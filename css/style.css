@@ -177,15 +177,21 @@ color:#404bbf;
 .features-list{
     display: flex;
     list-style-type: none;
-    padding: 120px 0 120px;
+    
     gap: 24px;
+}
+.features{
+    padding: 120px 0 120px;
+}
+.features-list:first-child{
+    width: calc((100% - 72px) / 4);
 }
 .listok{
     display: flex;
     width: 264px;
     flex-direction: column;
     align-items: flex-start;
-    gap: 8px; 
+    
 }
 
 .features-list-title{
@@ -198,12 +204,10 @@ color:#404bbf;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.4px;
-    
+    margin-bottom: 8px;
     
 }
-.features-title{
-    display: none;
-}
+
 .features-list-text{
     color: #434455;
     letter-spacing: 0.02em;
