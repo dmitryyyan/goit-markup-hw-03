@@ -183,10 +183,12 @@ color:#404bbf;
 .features{
     padding: 120px 0 120px;
 }
-
+.listok:first-child{
+    width: calc((100% - 72px) / 4);
+}
 .listok{
     display: flex;
-    width: calc((100% - 72px) / 4);
+    width: 264px;
     flex-direction: column;
     align-items: flex-start;
     
