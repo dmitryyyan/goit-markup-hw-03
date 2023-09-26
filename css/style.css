@@ -182,12 +182,12 @@ color:#404bbf;
 }
 .features{
     padding: 120px 0 120px;
-    flex-basis: calc((100% - 3 * 24px) / 4);
+    
 }
 
 .listok{
     display: flex;
-    width: 264px;
+    width: calc((100% - 3 * 24px) / 4);
     flex-direction: column;
     align-items: flex-start;
     
@@ -299,6 +299,7 @@ margin-bottom: 72px;
 .porfolio-menu-item{
     width: calc((100% - 48px) / 3);
     border: 1px solid  #E7E9FC;
+    
     
 }
 .portfolio-title{
