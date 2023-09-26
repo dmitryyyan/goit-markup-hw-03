@@ -285,12 +285,21 @@ margin-bottom: 72px;
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
-    
+    column-gap: 24px;
+    row-gap: 48px;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    /* width: calc((100% - 48px) / 3); */
+}
+.porfolio-menu-item:nth-child(3n+3){
+    margin-right: 0;
+    margin-bottom: 0;
 }
 .porfolio-menu-item{
+    
     border: 1px solid  #E7E9FC;
-    margin-right: 24px;
-    margin-bottom: 48px;
+    
 }
 .portfolio-title{
     color:  #2e2f42;
@@ -318,7 +327,7 @@ letter-spacing: 0.02em;
 }
 .portfolio{
     flex-basis: calc(100% - 3 * 24px) / 4;
-    height: 3300px;
+    
 }
 
 .porfolio-menu-text{
