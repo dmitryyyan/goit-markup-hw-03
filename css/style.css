@@ -238,10 +238,14 @@ color:#404bbf;
 }
 
 .team-list-item{
-    
+    border-radius: 0 0 4px 4px;
     background:  #ffffff;
    
     
+    
+}
+.surname{
+    padding: 32px 0;
     
 }
 .team-list-title{
@@ -254,11 +258,14 @@ color:#404bbf;
     font-weight: 500;
     line-height: 1.2; /* 120% */
     letter-spacing: 0.02em;
+    margin: 0 0 8px 0;
+    
 }
 .team-list-text{
     color:  #434455;
     text-align: center;
     letter-spacing: 0.02em;
+    margin: 0;
 }
 .team-title{
     color:  #2e2f42;
