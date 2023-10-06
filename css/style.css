@@ -357,6 +357,7 @@ footer{
 font-family: "Raleway",sans-serif;
 font-size: 18px;
 
+
 font-weight: 700;
 line-height: 1.17;/* 116.667% */
 letter-spacing: 0.54px;
@@ -366,6 +367,7 @@ margin-bottom: 16px;
 }
 .logo-footer{
     color: #F4F4FD;
+    text-decoration: none;
 }
 .footer-text{
     color: #F4F4FD;
