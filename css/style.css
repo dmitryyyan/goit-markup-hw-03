@@ -364,10 +364,11 @@ letter-spacing: 0.54px;
 text-transform: uppercase;
 display: inline-block;
 margin-bottom: 16px;
+text-decoration: none;
 }
 .logo-footer{
     color: #F4F4FD;
-    text-decoration: none;
+    
 }
 .footer-text{
     color: #F4F4FD;
