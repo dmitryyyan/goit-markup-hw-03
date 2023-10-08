@@ -67,6 +67,12 @@ img{
     /* padding-left: 156px; */
     
    }
+   header .container {
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	gap: 332px;
+}
 .header-logo{
     
     align-items: center;
@@ -120,7 +126,8 @@ text-decoration: none;
    display: flex;
    gap: 40px;
    margin: auto;
-   padding: 0;
+   
+   align-items: center;
     
 }
 
