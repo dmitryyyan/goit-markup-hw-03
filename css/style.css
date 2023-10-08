@@ -86,10 +86,10 @@ img{
     text-transform: uppercase;
     text-decoration: none;
 }
-/* .header-navigation{
-    
-    
-} */
+.header-navigation{
+   display: flex; 
+   align-items: center;
+}
 .header-logo{
     margin: auto;
     margin-right: 76px;
@@ -97,7 +97,7 @@ img{
 .header-menu{
     margin: auto;
     list-style-type: none;
-    display: inline-flex;
+    display: flex;
     align-items: flex-start;
     gap: 40px;
     
@@ -194,7 +194,7 @@ color:#404bbf;
 .hero-title{
     display: block;
     margin: 0 auto;
-    max-width: 520px; 
+    max-width: 496px;
     color: #ffffff;
     font-size: 56px;
     font-style: normal;
@@ -396,7 +396,7 @@ font-weight: 700;
 line-height: 1.17;/* 116.667% */
 letter-spacing: 0.54px;
 text-transform: uppercase;
-display: block;
+display: inline-block;
 
 margin-bottom: 16px;
 text-decoration: none;
