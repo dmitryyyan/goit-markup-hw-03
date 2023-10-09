@@ -59,12 +59,11 @@ img{
 
    }
    .header{
-    display: flex;
-    align-items: center;
+    
     border-bottom: 1px solid #e7e9fc;
     
-    justify-content: space-between;
-    /* padding-left: 156px; */
+    
+    
     
    }
    header .container {
@@ -91,7 +90,7 @@ img{
    align-items: center;
 }
 .header-logo{
-    margin: auto;
+    
     margin-right: 76px;
 }
 .header-menu{
@@ -409,4 +408,5 @@ text-decoration: none;
     color: #F4F4FD;
     letter-spacing: 0.02em;
     width: 264px;
+    line-height: 1.5;
 }
